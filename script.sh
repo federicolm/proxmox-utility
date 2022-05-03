@@ -10,7 +10,7 @@ function start {
     sleep 2
 }
 
-if (x<0)
+if (x<0); then
     return start
 else
     goto selection
