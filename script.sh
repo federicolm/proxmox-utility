@@ -10,10 +10,10 @@ function start {
     sleep 2
 }
 
-if (x<0); then
-    return start
+if (x<0); 
+    then start
 else
-    return selection
+    then selection
 fi
 function selection {
     echo "Seleziona il programma che vuoi utilizzare: "read x
