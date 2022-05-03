@@ -3,7 +3,7 @@
 
 x=0
 
-function start{
+function start {
     echo "Questo script è stato scritto da MinerAle e PellinD"
     sleep 1
     echo "Gli autori dello script non rispondono su eventuali errori!"
