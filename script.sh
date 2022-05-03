@@ -3,10 +3,18 @@
 
 x=0
 
+function start{
+    echo "Questo script è stato scritto da MinerAle e PellinD"
+    sleep 1
+    echo "Gli autori dello script non rispondono su eventuali errori!"
+    sleep 2
+}
 
-
-echo "Questo script è stato scritto da MinerAle e PellinD"
-sleep 1
-echo "Gli autori dello script non rispondono su eventuali errori!"
-sleep 2
-echo "Seleziona il programma che vuoi utilizzare: "input (x);
+if (x<0)
+    return start
+else
+    goto selection
+fi
+function selection {
+    echo "Seleziona il programma che vuoi utilizzare: "read x
+}
