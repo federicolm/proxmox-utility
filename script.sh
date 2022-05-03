@@ -15,6 +15,7 @@ if (x<0);
 else
     then selection
 fi
+
 function selection {
     echo "Seleziona il programma che vuoi utilizzare: "read x
 }
