@@ -13,7 +13,7 @@ function start {
 if (x<0); then
     return start
 else
-    goto selection
+    return selection
 fi
 function selection {
     echo "Seleziona il programma che vuoi utilizzare: "read x
