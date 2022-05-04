@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #https://github.com/MinerAle00/proxmox-utility
 
 x=0
@@ -24,8 +24,29 @@ function selection {
 echo "Questo script è stato scritto da MinerAle e PellinD"
 echo "Gli autori dello script non rispondono su eventuali errori!"
 
-x=0;
-until [$x<=0]
-do
-    echo "inserire valore"
-done
+function selezione {
+    echo "seleziona il programma che vuoi utilizzare:"
+    echo "1) valore1"
+    echo "2) valore2"
+    echo "3) valore3"
+    echo "4) valore4"
+    echo "5) valore5"
+    x=0
+    while [ $x -le 0 ]
+    do
+        echo -e "\ninserire valore: "
+        read -n 1 -p "" x
+        x=$(($x))
+    done
+    
+    if [ $x = 1 ]; then
+        echo -e "\nhai selezionato valore1"
+        #stringa codice del valore1 corrispondente
+        
+    fi
+    if [ $x = 2 ]; then
+        echo -e "\nhai selezionato valore2"
+        #stringa codice del valore2 corrispondente
+        
+    fi
+    }
