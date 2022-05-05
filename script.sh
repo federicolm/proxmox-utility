@@ -39,12 +39,14 @@ function selezione {
         x=$(($x))
     done
     
-    if [ $x = 1 ]; then
+    if [ $x = 1 ]; 
+    then
         echo -e "\nhai selezionato valore1"
         #stringa codice del valore1 corrispondente
         
     fi
-    if [ $x = 2 ]; then
+    if [ $x = 2 ]; 
+    then
         echo -e "\nhai selezionato valore2"
         #stringa codice del valore2 corrispondente
         
