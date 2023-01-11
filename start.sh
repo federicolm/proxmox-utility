@@ -27,7 +27,7 @@ echo "Gli autori dello script non rispondono su eventuali errori!"
 function selezione {
     echo "seleziona il programma che vuoi utilizzare:"
     echo "1) valore1"
-    echo "2) valore2"
+    echo "2) Suite di test by phoronix test suite"
     echo "3) valore3"
     echo "4) valore4"
     echo "5) valore5"
@@ -47,8 +47,10 @@ function selezione {
     fi
     if [ $x = 2 ]; 
         then
-            echo -e "\nhai selezionato valore2"
+            echo -e "\nhai selezionato suite di test"
         #stringa codice del valore2 corrispondente
-        
+        sudo apt install gdebi wget
+        wget https://phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_10.8.4_all.deb
+        sudo gdebi phoronix-test-suite_10.8.4_all.deb
     fi
     }
