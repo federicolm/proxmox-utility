@@ -12,8 +12,4 @@ L'installazione viene fatta tramite CLI. Segui i vari comandi step by step per l
 ~# bash start.sh
 ```
 
-Puoi utilizzare anche questo comando oneliner
-```
-~# bash <(curl -s https://raw.githubusercontent.com/MinerAle00/proxmox-resize/master/script.sh ) start.sh
-```
 Enjoy!
